@@ -6144,3 +6144,42 @@ readers do not read off random characters that represent icons */
 .fa-gear:before {
   content: "\f013";
 }
+.fa-comment:before {
+  content: "\f075";
+}
+.fa-retweet:before {
+  content: "\f079";
+}
+.fa-heart:before {
+  content: "\f004";
+}
+.fa-bar-chart:before {
+  content: "\f080";
+}
+.fa-upload:before {
+  content: "\f093";
+}
+.fa-house:before {
+  content: "\f015";
+}
+.fa-hashtag:before {
+  content: "\23";
+}
+.fa-bell:before {
+  content: "\f0f3";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-bookmark:before {
+  content: "\f02e";
+}
+.fa-list:before {
+  content: "\f03a";
+}
+.fa-user:before {
+  content: "\f007";
+}
+.fa-circle-ellipsis:before {
+  content: "\e10a";
+}
