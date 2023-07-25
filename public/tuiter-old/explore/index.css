@@ -1,0 +1,151 @@
+.wd-search-field {
+  padding-left: 40px;
+}
+.wd-search-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wd-rounded-corners-all-around {
+  border-radius: 50px;
+}
+.wd-search-color {
+  background-color: lightgray;
+  color: darkgray;
+}
+.wd-search-size {
+  width: 575px;
+  height: 40px;
+}
+.wd-search-padding {
+  padding-left: 45px;
+}
+.wd-fa-search-icon {
+  position: absolute;
+  top: 26px;
+  left: 205px;
+  color: darkgrey;
+}
+.wd-fa-setting-icon {
+  padding-left: 15px;
+  color: darkgrey;
+}
+.wd-explore-navigation-items {
+  display: flex;
+  align-items: center;
+}
+.wd-explore-navigation-icon {
+  margin-right: 5px;
+}
+.wd-navigation-tweet-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.wd-navigation-tweet-btn {
+  width: 100%;
+}
+.wd-tab-container {
+  display: flex;
+  align-items: center;
+}
+.wd-explore-news-img {
+  width: 100%;
+}
+.wd-tabs {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wd-tab {
+  position: relative;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.wd-tab-selected span {
+  border-bottom: 2px solid lightskyblue;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.wd-tab span {
+  display: inline-block;
+}
+
+.wd-tab label {
+  display: inline-block;
+}
+.wd-news-cover {
+  /* width: 400px;
+  height: 300px; */
+  position: relative;
+  /* text-align: center; */
+  /* object-fit: fill; */
+  /* background-image: url("../../images/newsimage.jpg"); */
+  margin-left: 30px;
+}
+.wd-news-headline {
+  font-size: 30px;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.wd-for-you-news-cover {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.wd-for-you-news-headline {
+  font-size: 30px;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.wd-article-trending {
+  color: lightgray;
+  font-size: 15px;
+  font-family: Arial;
+  margin-left: 30px;
+}
+.wd-article-title {
+  color: black;
+  font-size: 18px;
+  font-family: Arial;
+  margin-left: 30px;
+}
+.wd-article-num-tuits {
+  color: lightgray;
+  font-size: 15px;
+  font-family: Arial;
+  margin-left: 30px;
+}
+.wd-article-trending-2 {
+  color: lightgray;
+  font-size: 15px;
+  font-family: Arial;
+}
+.wd-article-title-2 {
+  color: black;
+  font-size: 18px;
+  font-family: Arial;
+}
+.wd-article-num-tuits-2 {
+  color: lightgray;
+  font-size: 15px;
+  font-family: Arial;
+}
+.wd-article-description {
+  font-size: 15px;
+  font-family: Arial;
+}

@@ -1,0 +1,303 @@
+<head>
+  <link href="index.css" rel="stylesheet" />
+  <link href="../styles.css" rel="stylesheet" />
+  <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet" />
+  <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<div class="row">
+  <!-- left sidebar -->
+  <div class="col-3">
+    <div class="list-group">
+      <a href="../home.html" class="list-group-item list-group-item-action">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="../home.html" class="list-group-item list-group-item-action">
+        <div class="wd-explore-navigation-items">
+          <i class="fa fa-house wd-explore-navigation-icon"></i>
+          <div class="d-none d-lg-block">Home</div>
+        </div>
+      </a>
+      <a
+        href="../index.html"
+        class="list-group-item list-group-item-action active"
+      >
+        <div class="wd-explore-navigation-items">
+          <i class="fa fa-hashtag wd-explore-navigation-icon"></i>
+          <div class="d-none d-lg-block">Explore</div>
+        </div>
+      </a>
+      <a
+        href="../notifications.html"
+        class="list-group-item list-group-item-action"
+      >
+        <div class="wd-explore-navigation-items">
+          <i class="fa fa-bell wd-explore-navigation-icon"></i>
+          <div class="d-none d-lg-block">Notifications</div>
+        </div>
+      </a>
+      <a href="../messages.html" class="list-group-item list-group-item-action">
+        <div class="wd-explore-navigation-items">
+          <i class="fa fa-envelope wd-explore-navigation-icon"></i>
+          <div class="d-none d-lg-block">Messages</div>
+        </div>
+      </a>
+      <a
+        href="../bookmarks/bookmarks-css.html"
+        class="list-group-item list-group-item-action"
+      >
+        <div class="wd-explore-navigation-items">
+          <i class="fa fa-bookmark wd-explore-navigation-icon"></i>
+          <div class="d-none d-lg-block">Bookmarks</div>
+        </div>
+      </a>
+      <a href="../lists.html" class="list-group-item list-group-item-action">
+        <div class="wd-explore-navigation-items">
+          <i class="fa fa-list wd-explore-navigation-icon"></i>
+          <div class="d-none d-lg-block">Lists</div>
+        </div>
+      </a>
+      <a href="../profile.html" class="list-group-item list-group-item-action">
+        <div class="wd-explore-navigation-items">
+          <i class="fa fa-user wd-explore-navigation-icon"></i>
+          <div class="d-none d-lg-block">Profile</div>
+        </div>
+      </a>
+      <a href="../tuit.html" class="list-group-item list-group-item-action">
+        <div class="wd-explore-navigation-items">
+          <i class="fa fa-ellipsis-h wd-explore-navigation-icon"></i>
+          <div class="d-none d-lg-block">More</div>
+        </div>
+      </a>
+    </div>
+    <div class="wd-navigation-tweet-row">
+      <button class="btn btn-primary rounded-pill wd-navigation-tweet-btn">
+        Tweet
+      </button>
+    </div>
+  </div>
+
+  <!-- main content -->
+  <div class="col-6">
+    <div class="row">
+      <div class="col-1">
+        <i class="fa fa-magnifying-glass"></i>
+      </div>
+      <div class="col-10">
+        <form>
+          <div class="col-sm-10">
+            <input
+              class="form-control rounded-pill"
+              id="r1"
+              placeholder="Search Twitter"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="col-1">
+        <i class="fa fa-gear"></i>
+      </div>
+    </div>
+
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="for-you.html">For you</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="trending.html">Trending</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="news.html">News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sports.html">Sports</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link d-none d-sm-block" href="entertainment.html"
+          >Entertainment</a
+        >
+      </li>
+    </ul>
+
+    <div class="wd-for-you-news-cover">
+      <img src="../../images/newsimage.jpg" class="wd-explore-news-img" />
+      <div class="wd-for-you-news-headline">
+        Sumner Tunnel Closed Summer 2023
+      </div>
+    </div>
+
+    <ul class="list-group">
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-10">
+            <div class="wd-article-trending-2">Web Development</div>
+            <div class="wd-article-title-2">
+              ReactJS
+              <i class="fa fa-check-circle"></i>
+              - 2h
+            </div>
+            <div class="wd-article-description">
+              React.js is a component based front end library that makes it very
+              easy to build Single Page Applications or SPAs
+            </div>
+          </div>
+          <div class="col-1">
+            <img
+              class="rounded"
+              src="../../images/react-logo.png"
+              width="50px"
+            />
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-10">
+            <div class="wd-article-title-2">
+              Javascript
+              <i class="fa fa-check-circle"></i>
+              - 3h
+            </div>
+            <div class="wd-article-num-tuits-2">50.9K Tuits</div>
+          </div>
+          <div class="col-1">
+            <img
+              class="rounded"
+              src="../../images/javascript-logo.png"
+              width="50px"
+            />
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-10">
+            <div class="wd-article-trending-2">Celebrities Trending</div>
+            <div class="wd-article-title-2">Adele</div>
+            <div class="wd-article-num-tuits-2">50.9K Tuits</div>
+          </div>
+          <div class="col-1">
+            <img class="rounded" src="../../images/adele.jpeg" width="50px" />
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-10">
+            <div class="wd-article-trending-2">Web Development</div>
+            <div class="wd-article-title-2">jQuery - 5h</div>
+            <div class="wd-article-num-tuits-2">198.9K Tuits</div>
+          </div>
+          <div class="col-1">
+            <img
+              class="rounded"
+              src="../../images/jquery-logo.png"
+              width="50px"
+            />
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- right sidebar -->
+  <div class="col-3 d-none d-lg-block">
+    <ul class="list-group">
+      <li class="list-group-item">Who to follow</li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-3">
+            <img
+              class="rounded-circle"
+              src="../../images/react-logo.png"
+              width="40px"
+            />
+          </div>
+          <div class="col-5">
+            <div>Java</div>
+            <div>@Java</div>
+          </div>
+          <div class="col-4">
+            <button class="btn btn-primary rounded-pill">Follow</button>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-3">
+            <img
+              class="rounded-circle"
+              src="../../images/nasa-logo.jpg"
+              width="40px"
+            />
+          </div>
+          <div class="col-5">
+            <div>Nasa</div>
+            <div>@NASA</div>
+          </div>
+          <div class="col-4">
+            <button class="btn btn-primary rounded-pill">Follow</button>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-3">
+            <img
+              class="rounded-circle"
+              src="../../images/delta-logo.png"
+              width="40px"
+            />
+          </div>
+          <div class="col-5">
+            <div>Delta</div>
+            <div>@Delta</div>
+          </div>
+          <div class="col-4">
+            <button class="btn btn-primary rounded-pill">Follow</button>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-3">
+            <img
+              class="rounded-circle"
+              src="../../images/national-geo-logo.png"
+              width="40px"
+            />
+          </div>
+          <div class="col-5">
+            <div>Nat Geo</div>
+            <i class="fa fa-check-circle"></i>
+            <div>@national_geo</div>
+          </div>
+          <div class="col-4">
+            <button class="btn btn-primary rounded-pill">Follow</button>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-3">
+            <img
+              class="rounded-circle"
+              src="../../images/adele.jpeg"
+              width="40px"
+            />
+          </div>
+          <div class="col-5">
+            <div>
+              Adele
+              <i class="fa fa-check-circle"></i>
+            </div>
+            <div>@Adele</div>
+          </div>
+          <div class="col-4">
+            <button class="btn btn-primary rounded-pill">Follow</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
