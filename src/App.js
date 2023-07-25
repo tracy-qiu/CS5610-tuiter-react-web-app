@@ -8,7 +8,7 @@ import { Routes, Route } from "react-router";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="container">
         <Routes>
           <Route path="/" element={<Labs />} />
@@ -17,7 +17,7 @@ function App() {
           <Route path="/tuiter/*" element={<Tuiter />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;
