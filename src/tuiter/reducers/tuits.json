@@ -5,7 +5,12 @@
     "userName": "SpaceX",
     "title": "Tesla CyberTruck lands on Mars and picks up the Curiosity rover on its 6' bed",
     "time": "2h",
-    "image": "tesla-logo.jpg"
+    "image": "tesla-logo.jpg",
+    "liked": true,
+    "replies": 78,
+    "retuits": 569,
+    "likes": 467,
+    "handle": "@spacex"
   },
   {
     "_id": 234,
@@ -16,7 +21,7 @@
     "image": "spacex-image.jpeg",
     "liked": true,
     "replies": 123,
-    "retuits": 432,
+    "retuits": 433,
     "likes": 2345,
     "handle": "@spacex",
     "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
@@ -27,6 +32,11 @@
     "userName": "Tesla",
     "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
     "time": "4d",
-    "image": "tesla-logo.jpg"
+    "image": "tesla-logo.jpg",
+    "liked": true,
+    "replies": 90,
+    "retuits": 78,
+    "likes": 4655,
+    "handle": "@tesla"
   }
 ]

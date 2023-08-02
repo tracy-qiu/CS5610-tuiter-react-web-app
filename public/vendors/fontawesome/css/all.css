@@ -6183,3 +6183,6 @@ readers do not read off random characters that represent icons */
 .fa-circle-ellipsis:before {
   content: "\e10a";
 }
+.fa-x:before {
+  content: "\58";
+}
