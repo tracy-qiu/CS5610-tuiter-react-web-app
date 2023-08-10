@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { deleteTuit } from "./tuits-reducer";
+import { deleteTuitThunk } from "../services/tuits-thunks";
 import TuitStats from "./tuit-stats";
 import "./index.css";
 
@@ -16,7 +16,7 @@ const TuitItem = ({
 }) => {
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+    dispatch(deleteTuitThunk(id));
   };
 
   return (
@@ -38,7 +38,7 @@ const TuitItem = ({
           <div className="col-10">
             <div>
               <i
-                class="fa-solid fa-x float-end"
+                className="fa-solid fa-x float-end"
                 onClick={() => deleteTuitHandler(tuit._id)}
               ></i>
               <div>
