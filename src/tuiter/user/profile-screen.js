@@ -56,16 +56,21 @@ function ProfileScreen() {
           </div>
         </div>
       )}
+      {/* {profile && (
+        <div> */}
       <button
         onClick={() => {
           dispatch(logoutThunk());
-          navigate("/login");
+          navigate("/tuiter/login");
         }}
       >
         {" "}
         Logout
       </button>
       <button onClick={save}>Save </button>
+      {/* </div>
+      )} */}
+      {/* {!profile && <div>Log in to see your profile!</div>} */}
     </div>
   ); // see below
 }

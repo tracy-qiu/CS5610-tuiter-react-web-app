@@ -27,7 +27,7 @@ const WhatsHappening = () => {
     <div>
       {!currentUser && <div>Log in to Tuit!</div>}
       {/* TODO remove ! below */}
-      {!currentUser && (
+      {currentUser && (
         <div className="row">
           <div className="col-auto">
             <img src="/images/nasa.png" width={60} />

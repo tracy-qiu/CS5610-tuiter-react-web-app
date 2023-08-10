@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 
 function TuitStats({ tuit }) {
   const dispatch = useDispatch();
+  console.log(tuit);
   return (
     <>
       <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet" />
@@ -25,6 +26,10 @@ function TuitStats({ tuit }) {
             }
           ></i>
           <div className="wd-interaction-count">{tuit.likes}</div>
+        </div>
+        <div className="wd-tuit-interaction-pair">
+          <i className="fa fa-thumbs-down"></i>
+          <div className="wd-interaction-count">{tuit.dislikes}</div>
         </div>
         <i className="fa fa-upload"></i>
       </div>

@@ -10,6 +10,7 @@
     "replies": 78,
     "retuits": 569,
     "likes": 467,
+    "dislikes": 12,
     "handle": "@spacex"
   },
   {
@@ -23,6 +24,7 @@
     "replies": 123,
     "retuits": 433,
     "likes": 2345,
+    "dislikes": 9,
     "handle": "@spacex",
     "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
   },
@@ -37,6 +39,7 @@
     "replies": 90,
     "retuits": 78,
     "likes": 4655,
+    "dislikes": 289,
     "handle": "@tesla"
   }
 ]

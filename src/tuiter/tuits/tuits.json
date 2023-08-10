@@ -8,7 +8,8 @@
     "image": "tesla-logo.jpg",
     "replies": 123,
     "retuits": 236,
-    "likes": 976
+    "likes": 976,
+    "dislikes": 23
   },
   {
     "_id": 234,
@@ -19,7 +20,8 @@
     "image": "spacex-image.jpeg",
     "replies": 182,
     "retuits": 231,
-    "likes": 123
+    "likes": 123,
+    "dislikes": 12
   },
   {
     "_id": 345,
@@ -30,6 +32,7 @@
     "image": "tesla-logo.jpg",
     "replies": 12,
     "retuits": 483,
-    "likes": 748
+    "likes": 748,
+    "dislikes": 23
   }
 ]
