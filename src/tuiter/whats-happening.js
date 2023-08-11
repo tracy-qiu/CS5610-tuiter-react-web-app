@@ -25,44 +25,43 @@ const WhatsHappening = () => {
   };
   return (
     <div>
-      {!currentUser && <div>Log in to Tuit!</div>}
-      {/* TODO remove ! below */}
-      {currentUser && (
-        <div className="row">
-          <div className="col-auto">
-            <img src="/images/nasa.png" width={60} />
-          </div>
-          <div className="col-10">
-            <textarea
-              value={whatsHappening}
-              placeholder="What's happening?"
-              className="form-control border-0"
-              onChange={(event) => setWhatsHappening(event.target.value)}
-            ></textarea>
-            <div>
-              <button
-                className="rounded-pill btn btn-primary float-end mt-2 ps-3 pe-3 fw-bold"
-                onClick={tuitClickHandler}
-              >
-                Tuit
-              </button>
-              <div className="text-primary fs-2">
-                <AiOutlinePicture className="me-3" />
-                <HiOutlineGif className="me-3" />
-                <MdFormatListBulleted className="me-3" />
-                <BsEmojiSmile className="me-3" />
-                <TbCalendarStats className="me-3" />
-                <HiOutlineLocationMarker className="me-3" />
-                <BiBold className="me-3" />
-                <BiItalic className="me-3" />
-              </div>
+      {/* {!currentUser && <div>Log in to Tuit!</div>}
+      {currentUser && ( */}
+      <div className="row">
+        <div className="col-auto">
+          <img src="/images/nasa.png" width={60} />
+        </div>
+        <div className="col-10">
+          <textarea
+            value={whatsHappening}
+            placeholder="What's happening?"
+            className="form-control border-0"
+            onChange={(event) => setWhatsHappening(event.target.value)}
+          ></textarea>
+          <div>
+            <button
+              className="rounded-pill btn btn-primary float-end mt-2 ps-3 pe-3 fw-bold"
+              onClick={tuitClickHandler}
+            >
+              Tuit
+            </button>
+            <div className="text-primary fs-2">
+              <AiOutlinePicture className="me-3" />
+              <HiOutlineGif className="me-3" />
+              <MdFormatListBulleted className="me-3" />
+              <BsEmojiSmile className="me-3" />
+              <TbCalendarStats className="me-3" />
+              <HiOutlineLocationMarker className="me-3" />
+              <BiBold className="me-3" />
+              <BiItalic className="me-3" />
             </div>
           </div>
-          <div className="col-12">
-            <hr />
-          </div>
         </div>
-      )}
+        <div className="col-12">
+          <hr />
+        </div>
+      </div>
+      {/* )} */}
     </div>
   );
 };

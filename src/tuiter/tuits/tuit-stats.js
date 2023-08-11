@@ -28,7 +28,14 @@ function TuitStats({ tuit }) {
           <div className="wd-interaction-count">{tuit.likes}</div>
         </div>
         <div className="wd-tuit-interaction-pair">
-          <i className="fa fa-thumbs-down"></i>
+          <i
+            className="fa fa-thumbs-down"
+            onClick={() =>
+              dispatch(
+                updateTuitThunk({ ...tuit, dislikes: tuit.dislikes + 1 })
+              )
+            }
+          ></i>
           <div className="wd-interaction-count">{tuit.dislikes}</div>
         </div>
         <i className="fa fa-upload"></i>
