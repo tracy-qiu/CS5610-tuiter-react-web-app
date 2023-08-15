@@ -14,7 +14,7 @@ const initialState = {
 const currentUser = {
   userName: "NASA",
   handle: "@nasa",
-  image: "nasa.png",
+  image: "nasa-logo-jpg",
 };
 
 const templateTuit = {

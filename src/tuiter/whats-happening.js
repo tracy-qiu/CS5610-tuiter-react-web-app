@@ -22,6 +22,7 @@ const WhatsHappening = () => {
       topic: whatsHappening,
       handle: "@" + currentUser.username,
       time: "now",
+      image: currentUser.username + "-logo.jpg",
     };
     // dispatch(createTuit(newTuit));
     dispatch(createTuitThunk(newTuit));
@@ -33,7 +34,7 @@ const WhatsHappening = () => {
       {currentUser && (
         <div className="row">
           <div className="col-auto">
-            <img src="/images/nasa.png" width={60} />
+            <img src="/images/nasa-logo.jpg" width={60} />
           </div>
           <div className="col-10">
             <textarea
