@@ -34,7 +34,10 @@ const WhatsHappening = () => {
       {currentUser && (
         <div className="row">
           <div className="col-auto">
-            <img src="/images/nasa-logo.jpg" width={60} />
+            <img
+              src={"/images/" + currentUser.username + "-logo.jpg"}
+              width={60}
+            />
           </div>
           <div className="col-10">
             <textarea
